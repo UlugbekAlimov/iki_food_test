@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts.css */
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url('./fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
