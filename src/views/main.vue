@@ -4,7 +4,7 @@
     <listCard :title="logo.title" :blocks="logo.child"/>
   </div>
   <div class="container mx-auto laptop:px-0 px-5 desktop:my-[120px] laptop:my-[60px] py-[50px]">
-    <a href="../downloads/all.zip" download>
+    <a href="src/downloads/all.zip" download>
       <CustomBtn name="btn_downall" />
     </a>
   </div>
