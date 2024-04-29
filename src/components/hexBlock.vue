@@ -53,7 +53,7 @@ export default {
         this.buttonText = 'Скопировано';
         setTimeout(() => {
           this.buttonText = 'Скопировать';
-        }, 2000); // Через 2 секунды возвращаем текст обратно
+        }, 2000);
         e.clearSelection();
         clipboard.destroy();
       });

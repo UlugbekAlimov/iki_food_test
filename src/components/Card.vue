@@ -3,12 +3,10 @@
   <div @mouseenter="isHovered = true" @mouseleave="isHovered = false" class="w-auto z-10 h-[174px] laptop:w-[278px] laptop:h-[174px] desktop:w-[447px] desktop:h-[280px]
     rounded-[15px] flex flex-col p-10 justify-center items-center relative main">
     <div class="flex justify-center img">
-      <icons :isHovered="isHovered" size="w-[259px] h-[160px]" :name="iconName" />
+      <icons :isHovered="isHovered" :name="iconName" />
     </div>
     <div :class="isHovered ? 'opacity-100' : 'opacity-0' " class="flex justify-center absolute bottom-6 items-center transition-all duration-300">
-      <a download href="../downloads/all.zip">
         <CustomBtn :links="links" name='down_all'></CustomBtn>
-      </a>
     </div>
     
   </div>
