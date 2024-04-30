@@ -9,14 +9,15 @@
           <div>HEX: {{ color.hex }}</div>
           <div>RGB: {{ color.rgb }}</div>
           <div>CMYK: {{ color.cmyk }}</div>
+        </div>
       </div>
+      <div :class="isHovered ? 'opacity-100' : 'opacity-0' " class="flex justify-center transition-all duration-300">
+        <div class="relative desktop:top-[-15px] laptop:top-[-15px]">
+          <button class="copy-button desktop:w-[360px] desktop:text-[28px] desktop:h-[51px] laptop:w-[215px] w-[250px] h-[30px] laptop:text-[17px] text-[#00A6ED] laptop:h-[30px] rounded-[7px] border-2 border-[#00A6ED] bg-white hover:bg-[#F6F7F8] transition-colors duration-300" @click="copyHexCode">{{ buttonText }}</button>
+        </div>
       </div>
-      <div :class="isHovered ? 'opacity-100' : 'opacity-0' " class="flex justify-center desktop:bottom-6 laptop:bottom-6 bottom-6 transition-all duration-300">
-        <button class="copy-button desktop:w-[360px] desktop:text-[28px] desktop:h-[51px] laptop:w-[215px] w-full h-[30px] laptop:text-[17px] text-[#00A6ED] laptop:h-[30px] rounded-[7px] border-2 border-[#00A6ED] bg-white hover:bg-[#F6F7F8] ransition-colors duration-300" @click="copyHexCode">{{ buttonText }}</button>
-      </div>
-
     </div>
-  </div>
+  </div>  
 </template>
 
 <script>
