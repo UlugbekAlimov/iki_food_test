@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div @mouseenter="isHovered = true" @mouseleave="isHovered = false" class="w-auto z-10 h-[174px] laptop:w-[278px] laptop:h-[174px] desktop:w-[447px] desktop:h-[280px]
+  <div @mouseenter="isHovered = true" @mouseleave="isHovered = false" class="w-auto z-10 h-[174px] laptop:w-full laptop:h-[174px] desktop:w-[447px] desktop:h-[280px]
     rounded-[15px] flex flex-col p-10 justify-center items-center relative main">
     <div class="flex justify-center img">
       <icons :isHovered="isHovered" :name="iconName" />

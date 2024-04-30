@@ -725,7 +725,7 @@
 
 			<!-- ikidel2 ========================================================= -->
 
-			<svg :class="isIconHovered" class="transition-all duration-300 main img w-[95px] h-[138px] laptop:w-[95px] laptop:h-[151px] desktop:w-[152px] desktop:h-[220px]" v-if="name === 'ikidel2'" width="112" height="220" viewBox="0 0 112 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg :class="isIconHovered" class="transition-all duration-300 main img w-[95px] h-[138px] laptop:w-[65px] laptop:h-[151px] desktop:w-[152px] desktop:h-[220px]" v-if="name === 'ikidel2'" width="112" height="220" viewBox="0 0 112 220" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path opacity="0.35" d="M84.5275 94.8287C76.7103 98.6489 69.5598 101.613 54.8392 101.613C40.1186 101.613 32.7622 98.6761 24.7509 94.6521C25.502 94.1105 26.4195 93.8504 27.3428 93.9172C28.3249 93.6667 29.5961 93.4124 30.9317 93.1394C46.1713 98.5299 64.33 98.4933 79.4989 92.8283C81.5548 93.1705 83.4459 93.6971 84.5275 94.8287Z" fill="#C5EFFF"/>
 				<path d="M34.9555 35.4099C34.6544 36.0783 34.3127 36.7277 33.9323 37.3543C28.7786 40.2894 14.8707 45.6511 8.84139 42.5441C-0.450463 37.7556 -1.19714 20.3437 4.44526 12.8495C10.0877 5.35524 22.3763 3.67223 29.7444 7.46367C39.3462 12.4077 39.1458 26.0647 34.9579 35.4037L34.9555 35.4099Z" fill="black"/>
 				<path d="M76.3252 37.642C76.6238 38.3461 76.9672 39.0304 77.3531 39.6906C82.6606 42.8435 97.0394 48.6874 103.377 45.5687C113.144 40.7631 114.255 22.6474 108.52 14.7355C102.785 6.82363 90.0279 4.84041 82.2823 8.64586C72.1909 13.6117 72.142 27.8341 76.3252 37.6397V37.642Z" fill="black"/>
@@ -870,7 +870,7 @@
 			
 			<!-- ikipart ========================================================= -->
 
-			<svg :class="isIconHovered" class="transition-all duration-300 w-[200px] h-[120px] laptop:w-[165px] laptop:h-[102px] desktop:w-[259px] desktop:h-[183px]" v-if="name === 'ikipart'" width="259" height="183" viewBox="0 0 259 183" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg :class="isIconHovered" class="transition-all duration-300 w-[200px] h-[120px] laptop:w-[195px] laptop:h-[132px] desktop:w-[259px] desktop:h-[183px]" v-if="name === 'ikipart'" width="259" height="183" viewBox="0 0 259 183" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g clip-path="url(#clip0_314_541)">
 				<mask id="mask0_314_541" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="259" height="183">
 				<path d="M259 0H0V183H259V0Z" fill="white"/>
@@ -955,7 +955,7 @@
 
 			<!--ikipart2 =========================================================  -->
 
-			<svg :class="isIconHovered" class="transition-all duration-300 main img w-[95px] h-[138px] laptop:w-[95px] laptop:h-[151px] desktop:w-[152px] desktop:h-[220px]" v-if="name === 'ikipart2'" width="111" height="221" viewBox="0 0 111 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg :class="isIconHovered" class="transition-all duration-300 main img w-[95px] h-[138px] laptop:w-[65px] laptop:h-[151px] desktop:w-[152px] desktop:h-[220px]" v-if="name === 'ikipart2'" width="111" height="221" viewBox="0 0 111 221" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path opacity="0.35" d="M83.7727 94.8287C76.0254 98.6489 68.9387 101.613 54.3496 101.613C39.7604 101.613 32.4697 98.6761 24.5298 94.6521C25.2743 94.1105 26.1836 93.8504 27.0987 93.9172C28.072 93.6667 29.3318 93.4124 30.6555 93.1394C45.759 98.5299 63.7556 98.4933 78.7891 92.8283C80.8266 93.1705 82.7009 93.6971 83.7727 94.8287Z" fill="#C5EFFF"/>
 			<path d="M34.6434 35.4099C34.345 36.0783 34.0063 36.7276 33.6293 37.3542C28.5216 40.2894 14.7379 45.6511 8.76245 42.544C-0.446436 37.7555 -1.18644 20.3437 4.40558 12.8494C9.99759 5.35521 22.1765 3.6722 29.4788 7.46364C38.9949 12.4077 38.7963 26.0647 34.6457 35.4037L34.6434 35.4099Z" fill="black"/>
 			<path d="M75.6437 37.642C75.9397 38.3461 76.28 39.0303 76.6625 39.6905C81.9226 42.8435 96.173 48.6873 102.454 45.5686C112.134 40.763 113.235 22.6473 107.551 14.7354C101.867 6.82357 89.2241 4.84035 81.5476 8.6458C71.5463 13.6116 71.4978 27.834 75.6437 37.6397V37.642Z" fill="black"/>

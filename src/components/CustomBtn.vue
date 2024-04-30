@@ -20,7 +20,7 @@
           Скачать (zip)
       </button>
     </a>
-      <button @click="open = !open" class="desktop:pl-6 laptop:pl-4 pl-[14px] laptop:pt-1 pt-1 desktop:pt-[5px] desktop:w-[80px] desktop:h-[60px] laptop:w-[50px] laptop:h-[35.3px] w-[50px] h-[35.6px] rounded-r-[7px] border-2 border-[#00A6ED] text-[#00A6ED] bg-[#ffff] transition-colors duration-300">
+      <button @click="open = !open" class="desktop:pl-6 laptop:pl-4 pl-[14px] laptop:pt-1 pt-1 desktop:pt-[5px] desktop:w-[80px] desktop:h-[63px] laptop:w-[50px] laptop:h-[34.6px] w-[50px] h-[35.9px] rounded-r-[7px] border-2 border-[#00A6ED] text-[#00A6ED] bg-[#ffff] transition-colors duration-300">
         <svg class="desktop:w-[24px] laptop:w-[15px] w-[13px]" viewBox="0 0 24 15" xmlns="http://www.w3.org/2000/svg"><path d="M11.8149 11.2711L12.0001 11.4755L12.1854 11.2711L21.3729 1.13262C21.6428 0.834723 21.9399 0.705074 22.2747 0.713941C22.6146 0.722942 22.917 0.865224 23.1896 1.16686L23.1899 1.1671C23.4613 1.46659 23.5939 1.80928 23.5939 2.20619C23.5939 2.6031 23.4613 2.9458 23.1899 3.24528L23.1896 3.24558L13.5961 13.8666C13.596 13.8666 13.5959 13.8667 13.5959 13.8668C13.3673 14.119 13.1142 14.3039 12.8367 14.4264C12.553 14.5517 12.2747 14.6121 12.0001 14.6121C11.7255 14.6121 11.4472 14.5517 11.1636 14.4264C10.8859 14.3039 10.6327 14.1188 10.4041 13.8666L0.779114 3.24528C0.510173 2.9485 0.38139 2.60243 0.390057 2.19356C0.398796 1.78131 0.537932 1.43166 0.809919 1.13311L0.810364 1.13262C1.08163 0.833276 1.38145 0.697476 1.71886 0.697476C2.05628 0.697476 2.35609 0.833276 2.62736 1.13262L11.8149 11.2711Z" fill="#00A6ED" stroke="white" stroke-width="0.5"/></svg>
       </button>
     <div
